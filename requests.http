@@ -1,0 +1,11 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "super@admin.com",
+  "password": "teste123"
+}
+
+###
+
+GET http://localhost:3000/profile
